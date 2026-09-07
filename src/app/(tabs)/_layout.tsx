@@ -9,7 +9,7 @@ const tabBar = components.tabBar;
 
 const TabLayout = () =>{
     const insets = useSafeAreaInsets();
-    const TabIcon=({focused, icon}: TabIconsProps) => {
+    const TabIcon=({focused, icon}: TabIconProps) => {
         return(
             <View className="tabs-icon">
                 <View className={clsx('tabs-pill', focused && 'tabs-active')}>
