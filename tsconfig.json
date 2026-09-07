@@ -5,9 +5,6 @@
     "paths": {
       "@/*": [
         "./src/*"
-      ],
-      "@/assets/*": [
-        "./assets/*"
       ]
     }
   },
@@ -16,6 +13,12 @@
     "**/*.tsx",
     ".expo/types/**/*.ts",
     "expo-env.d.ts",
-    "nativewind-env.d.ts"
+    "nativewind-env.d.ts",
+    "image.d.ts",
+    "type.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "example"
   ]
 }
